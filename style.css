@@ -1,0 +1,82 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: "Poppins", sans-serif;
+}
+
+header {
+  height: 100vh;
+}
+
+/* Navigation  */
+
+nav {
+  font-size: 1.8rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: red;
+  line-height: 8rem;
+  padding: 0 5rem;
+  padding-top: 1rem;
+  margin-bottom: 7rem;
+}
+
+.brand span {
+  color: red;
+}
+
+.nav-link {
+  display: flex;
+  gap: 5rem;
+  list-style: none;
+}
+
+.nav-link li a {
+  text-decoration: none;
+  color: #000;
+}
+
+.nav-btn {
+  border: none;
+  font-family: inherit;
+  padding: 0.8rem 1.2rem;
+  cursor: pointer;
+  background-color: #000;
+  color: #fff;
+  font-size: 16.5px;
+}
+
+/* Hero  */
+
+.hero-section {
+  background-color: green;
+}
+
+.hero-container {
+  margin: 0 auto;
+  background-color: blue;
+  max-width: 120rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.header {
+  font-size: 6rem;
+  line-height: 1.3;
+  margin-bottom: 1rem;
+}
+
+.hero-text-box p {
+  font-size: 1.6rem;
+  line-height: 1.5;
+}
