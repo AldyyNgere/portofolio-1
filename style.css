@@ -145,3 +145,61 @@ nav {
 .about-section .sub-title {
   margin-bottom: 2rem;
 }
+
+/* Skill section  */
+
+.skill-section {
+  height: 100vh;
+  padding-top: 8rem;
+}
+
+.skill-top-box {
+  max-width: 120rem;
+  margin: 0 auto;
+  margin-bottom: 5rem;
+}
+
+.skill-top-box .sub-title {
+  text-align: center;
+  font-size: 4rem;
+  margin-bottom: 5rem;
+  color: var(--primary-color);
+}
+
+.skill-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+}
+
+.skill-container ion-icon {
+  font-size: 7rem;
+}
+
+.skill-bottom-box {
+  max-width: 120rem;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+}
+
+.skill-bottom-box .skill-card {
+  padding: 5rem 6rem;
+  background-color: var(--primary-color);
+}
+
+.skill-bottom-box .skill-card ion-icon {
+  font-size: 5rem;
+  margin-bottom: 0.8rem;
+}
+
+.skill-bottom-box .skill-card h3 {
+  margin-bottom: 1rem;
+}
+
+.skill-bottom-box .skill-card p {
+  line-height: 1.6;
+}
