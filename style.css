@@ -203,3 +203,10 @@ nav {
 .skill-bottom-box .skill-card p {
   line-height: 1.6;
 }
+
+/* Contact section */
+
+.contact-section {
+  background-color: red;
+  height: 100vh;
+}
